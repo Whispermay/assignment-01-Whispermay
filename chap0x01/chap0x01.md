@@ -14,7 +14,7 @@
 
 * `VBox`中新建虚拟机，使用`ubuntu-18.04.4-server-amd64.iso`文件
 
-  ![](image\vbox.png)
+  ![](./image/vbox.png)
 
   * 修改配置文件`01-netcfg.yaml`
 
@@ -22,7 +22,7 @@
     vim /etc/netplan/01-netcfg.yaml
     ```
 
-    ![](image\01-netcfg.png)
+    ![](./image/01-netcfg.png)
 
   * 应用修改
 
@@ -30,7 +30,7 @@
     sudo netplan apply
     ```
 
-    ![](image\ifconfig.png)
+    ![](./image/ifconfig.png)
 
 * 配置`ssh`远程登陆
   * 下载`putty`
@@ -41,24 +41,24 @@
     /etc/init.d/ssh start
     ```
   
-    ![](image\sshstart.png)
+    ![](./image/sshstart.png)
   
   * 查看虚拟机和宿主机的ip地址
   
-    ![](image\ipconfig.png)
+    ![](./image/ipconfig.png)
   
-    ![](image\ifconfig.png)
+    ![](./image/ifconfig.png)
   
   * 在`putty`中填入虚拟机中与宿主机同一网段的`IP`地址
   
-    ![](image\puttyssh.png)
+    ![](./image/puttyssh.png)
   
 * 创建`iso`镜像文件
   * 在当前用户目录（这里是用户名为`cuc`）下创建一个用于挂载`iso`镜像的目录，终端命令为`mkdir loopdir`
   
   * 下载原`ubuntu-18.04.4-server-amd64.iso`镜像文件
   
-    ![](image\ubuntu1804iso.png)
+    ![](./image/ubuntu1804iso.png)
   
   * 挂载`iso`镜像文件到`loopdir`目录中
   
@@ -86,19 +86,19 @@
   
   * 进入刚刚创建的`clonecd`目录下
   
-    * 编辑`isolinux/txt.cfg`，并添加如下内容并保存
+   * 编辑`isolinux/txt.cfg`，并添加如下内容并保存
   
       ```
       vim isolinux/txt.cfg
       ```
       
-      ![](image\txtcfg.png)
+      ![](./image/txtcfg.png)
   
   * 下载配置完成的`ubuntu-server-autoinstall.seed`(https://github.com/c4pr1c3/LinuxSysAdmin/tree/master/exp)至`preseed`目录下
   
   * 修改`isolinux/isolinux.cfg`将`timeout`改为10
   
-    ![](image\isolinuxcfg.png)
+    ![](./image/isolinuxcfg.png)
   
   * 生成目标定制`iso`
   
@@ -130,9 +130,9 @@
     pscp cuc@192.168.56.102:/home/cuc/custom.iso E:custom.iso
     ```
   
-    ![](image\customiso.png)
+    ![](./image/customiso.png)
   
-    ![](image\pscpiso.png)
+    ![](./image/pscpiso.png)
   
   * 在`VBox`中新建虚拟机，选择刚刚下载的`custom.iso`文件，完成无人值守安装
   
@@ -144,7 +144,7 @@
   
 * 检查发现虽然虚拟机`ip`地址是`192.168.56.1`，也能联网，但是在配置虚拟机网卡的时候指定的`host-only`网卡为另一`192.168.242.1`的网卡，更改后重试成功
   
-    ![](image\mistake.png)
+    ![](./image/mistake.png)
   
 * 在使用某些命令时提示权限不够
   
