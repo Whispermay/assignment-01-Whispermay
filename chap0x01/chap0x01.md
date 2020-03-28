@@ -136,7 +136,7 @@
   
   * 在`VBox`中新建虚拟机，选择刚刚下载的`custom.iso`文件，完成无人值守安装
   
-    
+    https://www.bilibili.com/video/BV1pc411h76Q/
 
 #### 遇到的问题
 
