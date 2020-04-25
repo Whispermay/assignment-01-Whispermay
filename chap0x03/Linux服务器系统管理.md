@@ -117,7 +117,7 @@
 
   * 操作视频
 
-    https://asciinema.org/a/nLOtYeEcIDsPcdQBDLIA1Jdqu
+    [![系统管理](https://asciinema.org/a/nLOtYeEcIDsPcdQBDLIA1Jdqu.png)](https://asciinema.org/a/nLOtYeEcIDsPcdQBDLIA1Jdqu)
 
 * Unit
 
@@ -200,7 +200,7 @@
 
   * 操作视频
 
-    https://asciinema.org/a/LWT9ChdCh73tbY5QDgVJb5uOD
+    [![Unit](https://asciinema.org/a/LWT9ChdCh73tbY5QDgVJb5uOD.png)](https://asciinema.org/a/LWT9ChdCh73tbY5QDgVJb5uOD)
 
 * Unit 的配置文件
 
@@ -276,7 +276,7 @@
 
   * 操作视频
 
-    https://asciinema.org/a/sHx6IZ6oppVD941AIZevvxKZg
+    [![Unit的配置文件](https://asciinema.org/a/sHx6IZ6oppVD941AIZevvxKZg.png)](https://asciinema.org/a/sHx6IZ6oppVD941AIZevvxKZg)
 
 * Target
 
@@ -307,7 +307,7 @@
 
   * 操作视频
 
-    https://asciinema.org/a/G3j80qDblDxRwu2ftqSpYYevu
+    [![Target](https://asciinema.org/a/G3j80qDblDxRwu2ftqSpYYevu.png)](https://asciinema.org/a/G3j80qDblDxRwu2ftqSpYYevu)
 
 * 日志管理
 
@@ -400,7 +400,7 @@
 
   * 操作视频
 
-    https://asciinema.org/a/KCIgI7HPbFrVfkgiPCie1b2O9
+    [![日志管理](https://asciinema.org/a/KCIgI7HPbFrVfkgiPCie1b2O9.png)](https://asciinema.org/a/KCIgI7HPbFrVfkgiPCie1b2O9)
 
 ### Systemd实战篇
 
