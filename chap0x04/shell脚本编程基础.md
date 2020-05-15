@@ -42,7 +42,7 @@
 
 * 任务一
 
-  [实验代码](https://www.baidu.com)
+  [实验代码](https://github.com/20LinuxManagement/assignment-01-Whispermay/blob/master/chap0x04/sh/image.sh)
 
   
 
@@ -68,7 +68,7 @@
 
 * 任务二
 
-  [实验代码](https://www.baidu.com)
+  [实验代码](https://github.com/20LinuxManagement/assignment-01-Whispermay/blob/master/chap0x04/sh/world.sh)
 
   ![](worldcupplayerinfo.png)
 
@@ -81,7 +81,7 @@
   7z x web_log.tsv.7z
   ```
 
-  [实验代码](https://www.baidu.com)
+  [实验代码](https://github.com/20LinuxManagement/assignment-01-Whispermay/blob/master/chap0x04/sh/WebLog.sh)
 
   实验结果
 
